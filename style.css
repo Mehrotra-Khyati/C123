@@ -1,0 +1,22 @@
+.heading{
+    font-size: 25px;
+}
+
+.btn-danger:hover{
+    background-color: rgb(200, 215, 36);
+    color: black;
+}
+
+canvas{
+    animation-name: highiliter;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes highiliter {
+    from{box-shadow: 10px 10px 40px rgb(247, 192, 121);}
+    to{box-shadow: 10px 10px 40px rgb(0, 255, 234)}
+    
+    
+}
+
